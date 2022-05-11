@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
-
-
-body{
-    margin:0px;
+body {
+    margin: 0px;
     background-color: #DCE0E4;
     font-family: 'Poppins', sans-serif;
 }
@@ -10,15 +8,16 @@ body{
 form {
     margin: 50px auto auto auto;
     width: 400px;
-    
 }
 
-label{
+label {
     font-size: 20px;
     font-weight: 700;
 }
 
-form input, select, textarea{
+form input,
+select,
+textarea {
     border: none;
     background-color: rgb(241, 241, 241);
     padding: 8px 0px;
@@ -26,18 +25,17 @@ form input, select, textarea{
     border-radius: 6px;
     margin: 10px 0px;
     box-shadow: 0px 0px 10px rgb(158, 158, 158);
-    
 }
 
-textarea{
+textarea {
     resize: vertical;
 }
 
-select option{
+select option {
     font-weight: 600;
 }
 
-button{
+button {
     border: none;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -48,58 +46,57 @@ button{
     float: right;
 }
 
-.personal{
-    background-color: rgb(189, 92, 1);
+.personal {
     height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container-content{
-    background-color: aqua;
+.container-content {
+    background-color: white;
     width: 90%;
+    height: 80%;
     display: flex;
 }
 
-.container-content .left{
-    flex: 50%;
-    background-color:aquamarine;
+.container-content .left {
+    flex: 70%;
+    padding: 50px;
 }
 
-.container-content .right{
-    flex: 50%;
-    background-color: bisque;
-
+.container-content .right {
+    flex: 30%;
+    padding: 50px;
 }
 
-img.logo{
+img.logo {
     height: 30px;
     margin: 7px 0px 0px 50px;
 }
 
-nav{
+nav {
     background-color: #F4F3F3;
     display: flex;
     height: 5vh;
 }
 
-nav div{
+nav div {
     display: flex;
     align-items: center;
 }
 
-nav .left-side{
+nav .left-side {
     flex: 80%;
 }
 
-nav .right-side{
+nav .right-side {
     flex: 20%;
     justify-content: flex-end;
     margin-right: 40px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
@@ -108,18 +105,18 @@ nav ul li {
     margin-left: 30px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-nav ul li a.active{
+nav ul li a.active {
     text-decoration: none;
     color: rgb(230, 0, 0);
     font-weight: 700;
 }
 
-nav .right-side a{
+nav .right-side a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
@@ -128,14 +125,55 @@ nav .right-side a{
     border: none;
 }
 
-.container-content .right .skill{
-    display: flex;
+.biodata {
+    background-color: rgb(255, 255, 255);
 }
 
-.container-content .right .skill i{
-   font-size: 50px;
-}
-
-h1.center{
+h1.center {
     text-align: center;
+}
+
+.biodata a.contact-button {
+    color: white;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+
+.biodata a.download-button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: black;
+    margin: 20px 0px 0px 0px;
+}
+
+.side-biodata {
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgb(145, 145, 145);
+    text-align: center;
+    height: 100%;
+}
+
+.side-biodata h2 {
+    margin: 0%;
+}
+
+.biodata a.sosmed {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    word-spacing: 30px;
+}
+
+.biodata .daftar-sosmed {
+    margin-top: 20px;
 }
