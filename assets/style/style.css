@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+body{
+    margin:0px;
+    background-color: #DCE0E4;
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    margin: 50px auto auto auto;
+    width: 400px;
+    
+}
+
+label{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+form input, select, textarea{
+    border: none;
+    background-color: rgb(241, 241, 241);
+    padding: 8px 0px;
+    width: 100%;
+    border-radius: 6px;
+    margin: 10px 0px;
+    box-shadow: 0px 0px 10px rgb(158, 158, 158);
+    
+}
+
+textarea{
+    resize: vertical;
+}
+
+select option{
+    font-weight: 600;
+}
+
+button{
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 7px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+}
+
+.personal{
+    background-color: rgb(189, 92, 1);
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-content{
+    background-color: aqua;
+    width: 90%;
+    display: flex;
+}
+
+.container-content .left{
+    flex: 50%;
+    background-color:aquamarine;
+}
+
+.container-content .right{
+    flex: 50%;
+    background-color: bisque;
+
+}
+
+img.logo{
+    height: 30px;
+    margin: 7px 0px 0px 50px;
+}
+
+nav{
+    background-color: #F4F3F3;
+    display: flex;
+    height: 5vh;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+nav .left-side{
+    flex: 80%;
+}
+
+nav .right-side{
+    flex: 20%;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a.active{
+    text-decoration: none;
+    color: rgb(230, 0, 0);
+    font-weight: 700;
+}
+
+nav .right-side a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 3px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.container-content .right .skill{
+    display: flex;
+}
+
+.container-content .right .skill i{
+   font-size: 50px;
+}
+
+h1.center{
+    text-align: center;
+}
